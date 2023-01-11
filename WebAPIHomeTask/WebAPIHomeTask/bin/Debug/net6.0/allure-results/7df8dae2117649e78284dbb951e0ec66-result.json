@@ -1,0 +1,66 @@
+{
+  "uuid": "10022841a34549e2b35128141a831e66",
+  "historyId": "Booking - UpdateBooking",
+  "fullName": "Booking - UpdateBooking",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPBGSOFW009C"
+    },
+    {
+      "name": "feature",
+      "value": "Update Booking"
+    }
+  ],
+  "links": [],
+  "name": "Booking - UpdateBooking",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: \"James\"\r\n  But was:  null\r\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: \"James\"\r\n  But was:  null\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at WebAPITests.StepDefinitions.UpdateBookingStepDefinitions.ThenThenIVerifyFirstName() in C:\\Anna_Radova\\WebAPIHomeTask\\WebAPIHomeTask\\StepDefinitions\\UpdateBookingStepDefinitions.cs:line 22\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I update Booking using Put request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673421572632,
+      "stop": 1673421572830
+    },
+    {
+      "name": "Then  Then I verify first name",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673421572830,
+      "stop": 1673421572832
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673421572632,
+  "stop": 1673421572832
+}

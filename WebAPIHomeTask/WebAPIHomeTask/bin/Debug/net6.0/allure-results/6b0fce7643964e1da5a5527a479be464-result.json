@@ -1,0 +1,64 @@
+{
+  "uuid": "a2b33ee350504e1ebc5dd22b235153c5",
+  "historyId": "Booking - DeleteBooking",
+  "fullName": "Booking - DeleteBooking",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPBGSOFW009C"
+    },
+    {
+      "name": "feature",
+      "value": "Delete Booking"
+    }
+  ],
+  "links": [],
+  "name": "Booking - DeleteBooking",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I delete Booking using Delete request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673421572252,
+      "stop": 1673421572420
+    },
+    {
+      "name": "Then  I verify Booking is deleted",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673421572421,
+      "stop": 1673421572421
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673421572252,
+  "stop": 1673421572421
+}

@@ -1,0 +1,66 @@
+{
+  "uuid": "c891eb5a6cbd4c5cbb46a2fecc557a5c",
+  "historyId": "Booking - CreateBooking",
+  "fullName": "Booking - CreateBooking",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPBGSOFW009C"
+    },
+    {
+      "name": "feature",
+      "value": "Create Booking"
+    }
+  ],
+  "links": [],
+  "name": "Booking - CreateBooking",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 1\r\n  But was:  0\r\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: 1\r\n  But was:  0\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at WebAPITests.StepDefinitions.CreateBookingStepDefinitions.ThenThenIVerifyID() in C:\\Anna_Radova\\WebAPIHomeTask\\WebAPIHomeTask\\StepDefinitions\\CreateBookingStepDefinitions.cs:line 22\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I create Booking using Post request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673421571958,
+      "stop": 1673421572216
+    },
+    {
+      "name": "Then  Then I verify ID",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673421572216,
+      "stop": 1673421572247
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673421571958,
+  "stop": 1673421572248
+}

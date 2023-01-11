@@ -1,0 +1,64 @@
+{
+  "uuid": "5be1a6461c18452fbd640b25d0b5a134",
+  "historyId": "Auth - CreateToken",
+  "fullName": "Auth - CreateToken",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPBGSOFW009C"
+    },
+    {
+      "name": "feature",
+      "value": "Auth Token"
+    }
+  ],
+  "links": [],
+  "name": "Auth - CreateToken",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I create Auth Token using Post request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673418108283,
+      "stop": 1673418109278
+    },
+    {
+      "name": "Then  I verify Auth Token is created",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673418109280,
+      "stop": 1673418109283
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673418108277,
+  "stop": 1673418109285
+}
